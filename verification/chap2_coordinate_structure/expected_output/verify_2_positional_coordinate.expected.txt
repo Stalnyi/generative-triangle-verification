@@ -1,0 +1,31 @@
+=== Verification of positional coordinate on a level (sec:positional-coordinate) ===
+
+=== Symbolic verification of positional-coordinate formulas ===
+[OK] One-step positional recursion verified symbolically
+[OK] Base-s exponent shift in the path formula verified symbolically
+[OK] Level-start formula is compatible with the required recursion
+
+=== Exact finite verification of u_n as a level coordinate ===
+[OK] Verified bijective u_n coordinate on 30 levels
+[OK] Checked 62601 exact level elements
+
+=== Exhaustive verification of u_{n+1}=s*u_n+(sigma-1) ===
+[OK] Verified 85558 exact one-step recursion instances
+
+=== Exact verification of the base-s path representation and decoding ===
+[OK] Verified 15946 generated paths against positional formula
+[OK] Decoding from u_n recovers root and every internal state exactly
+
+=== Verification of leading-root digit versus internal-state digits ===
+[OK] Leading-root digit and internal-state digits are separated exactly
+[OK] Verified cases k<s and k>s without conflating k with s
+
+=== Verification of the numerical examples in the section ===
+[OK] Verified x=11 example: root 2, states (1,1), u_2=4
+[OK] Verified x=14 example: root 2, states (2,2), u_2=7
+[OK] Rejected the incorrect root-1 reconstruction for x=11
+
+=== Negative-domain verification ===
+[OK] Invalid domains are rejected explicitly
+
+=== Positional-coordinate verification completed successfully ===

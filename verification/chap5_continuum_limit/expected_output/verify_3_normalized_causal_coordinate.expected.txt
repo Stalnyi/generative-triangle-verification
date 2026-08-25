@@ -1,0 +1,38 @@
+=== Verification of normalized causal coordinate (sec:normalized-causal-coordinate) ===
+
+=== Symbolic verification of Delta rho definition and range ===
+[OK] Delta rho = D/s^Delta is symbolically consistent
+[OK] finite right endpoint is excluded and converges to 1 as Delta grows
+
+=== Symbolic verification of finite fractional expansion formula ===
+[OK] Four-step symbolic expansion matches D/s^Delta exactly
+[OK] Recursive digit update D_{k+1}=sD_k+d_{k+1} preserves normalized expansion
+
+=== Exact verification of base-s fractional representation ===
+[OK] Checked 15024 exact state-prefix/fractional-expansion cases
+[OK] Fixed-depth decoding preserves leading zero digits
+
+=== Exact verification of normalized-grid bijection and order ===
+[OK] Verified 34631 exact normalized grid points
+[OK] y -> D -> Delta rho is bijective at fixed ancestor and fixed depth
+
+=== Integration with position decomposition of the causal layer ===
+[OK] Checked 16510 quotient/remainder decompositions
+[OK] Normalized coordinate is the causal-layer remainder divided by s^Delta
+
+=== Verification of scale-invariance across ancestor positions ===
+[OK] Normalized causal-layer geometry depends on (s, Delta), not on ancestor position
+
+=== Constructive density and approximation verification ===
+[OK] Explicit normalized grid points were constructed inside rational intervals
+[OK] Floor and nearest-grid approximation bounds hold exactly
+
+=== Verification of fixed-depth finite representation discipline ===
+[OK] Fixed depth is necessary and sufficient for fixed-depth finite-prefix recovery
+[OK] The finite all-maximal branch remains below the excluded endpoint 1
+
+=== Negative domain and consistency tests ===
+[OK] Invalid bases, depths, digits, states and decompositions are rejected
+[OK] Delta rho alone is not misused as a global space-time coordinate
+
+=== Normalized causal coordinate verification completed successfully ===

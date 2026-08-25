@@ -1,0 +1,35 @@
+=== Verification of scale structure of causal cones (sec:scale-structure-causal-cones) ===
+
+=== Elementary scale transformations ===
+[OK] Verified scale-map ranges, half-open cells, order preservation, and contraction on 4488 exact rational samples
+
+=== Symbolic scale-map identities ===
+[OK] Symbolic contraction, refinement, and causal-bound gap identities verified
+
+=== Normalized finite causal cones ===
+[OK] Verified exact finite normalized cones and digit decoding for 15024 points
+
+=== Exact recursive scale refinement of finite cones ===
+[OK] Verified self-similar refinement and leading-digit correspondence for 82174 refined branches
+
+=== Recursive coordinate evolution ===
+[OK] Verified leading-digit recursive law for 82174 exact finite prefixes
+[OK] Verified that leading refinement is not silently confused with final-digit append
+
+=== Scale stability of the causal inequality ===
+[OK] Verified causal-bound preservation for 120032 exact refined causal intervals
+[OK] Lower-bound equalities: 20; upper-bound equalities: 160
+
+=== Exponential growth of causal microhistory realizations ===
+[OK] Verified N(delta)=s^delta and N(delta+1)=s*N(delta) for 25 parameter pairs
+
+=== No-new-geometry and ancestor-independence checks ===
+[OK] Verified normalized-cone independence from ancestor data using 540 quotient/remainder samples
+
+=== Finite-versus-continuum guards ===
+[OK] Verified finite-layer non-continuum guards and constructive density samples for 42 finite scales
+
+=== Negative domain tests ===
+[OK] Invalid domains and corrupted decompositions are rejected
+
+=== Scale structure of causal cones verification completed successfully ===

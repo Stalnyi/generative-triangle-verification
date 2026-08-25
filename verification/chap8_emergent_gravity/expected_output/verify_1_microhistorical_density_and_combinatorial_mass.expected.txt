@@ -1,0 +1,41 @@
+=== Verification of microhistorical density and combinatorial mass ===
+
+=== Symbolic verification of logarithmic identities ===
+[OK] m_comb = n + log_s(theta) is symbolic
+[OK] delta = n - m_comb = -log_s(theta) is symbolic
+[OK] logarithmic additivity under product multiplicity is symbolic
+[OK] N=s^q implies m_comb=q symbolically
+
+=== Verification of cardinality bounds and positive logarithmic regime ===
+[OK] Checked 291 finite stable layers
+[OK] Checked 291 cardinality/fraction cases
+[OK] Checked 63 zero-multiplicity logarithmic rejections
+
+=== Exact stable-subset verification inside full s-ary layers ===
+[OK] Checked 280 explicit stable subsets
+[OK] Checked 1162774 stable indices inside full layers
+
+=== Verification of boundary cases and equivalences ===
+[OK] Checked 240 boundary cases N=1 and N=s^n
+[OK] Checked 780 exact power cases N=s^q
+[OK] Checked 548 equivalences N>1 iff m_comb>0
+
+=== Verification of logarithmic additivity for product multiplicities ===
+[OK] Checked 15210 product-multiplicity additivity cases
+[OK] Checked 640 exact power-product cases
+
+=== Verification of monotonicity and invertibility ===
+[OK] Checked 520 strict monotonicity pairs
+[OK] Checked 583 inverse reconstructions from mass/deficit
+
+=== Exact rational-grid verification of theta and deficit relationships ===
+[OK] Checked 272 exact rational theta values
+
+=== Dependency guard for effective deformation ===
+[OK] Checked 76 effective-deformation dependency cases
+[OK] Positive combinatorial mass alone is not treated as a sector-deficit conclusion
+
+=== Negative domain tests ===
+[OK] Invalid branching, levels, multiplicities, theta values, and stable subsets are rejected
+
+=== Microhistorical density and combinatorial-mass verification completed successfully ===

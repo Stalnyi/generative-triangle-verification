@@ -1,0 +1,31 @@
+Chapter 3: Causal Structure, DAG Interpretation, and the Block Ontology of Spacetime
+
+[1]
+Manuscript source:
+  chap3_causality_block/1_partial_order.tex
+
+Verification script:
+  anc/verification/chap3_causality_block/scripts/verify_1_partial_order.py
+
+Expected output:
+  anc/verification/chap3_causality_block/expected_output/verify_1_partial_order.expected.txt
+
+[2]
+Manuscript source:
+  chap3_causality_block/2_dag_interpretation.tex
+
+Verification script:
+  anc/verification/chap3_causality_block/scripts/verify_2_dag_interpretation.py
+
+Expected output:
+  anc/verification/chap3_causality_block/expected_output/verify_2_dag_interpretation.expected.txt
+
+[3]
+Manuscript source:
+  chap3_causality_block/3_block_universe.tex
+
+Verification script:
+  anc/verification/chap3_causality_block/scripts/verify_3_block_universe.py
+
+Expected output:
+  anc/verification/chap3_causality_block/expected_output/verify_3_block_universe.expected.txt

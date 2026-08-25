@@ -1,0 +1,46 @@
+=== Verification of macroscopic indistinguishability and emergent stochasticity ===
+
+=== Deterministic finite microhistory count and digit bijection ===
+[OK] Checked exact bijections for 82194 digit coordinates across several bases and depths
+
+=== Macroscopic equivalence induced by finite resolution ===
+[OK] Coarse resolution classes define an equivalence relation on finite deterministic prefixes
+[OK] Checked 1602 nonuniform half-open partition witnesses
+
+=== Exact macroscopic degeneracy counts ===
+[OK] Verified exact ceil-count formula and finite error bound for 210 region/base/depth cases
+
+=== Exact counts for grid-aligned macroscopic regions ===
+[OK] Checked 120 grid-aligned regions with exact degeneracy and exact probability
+
+=== Exact lower bound for the chaos-like mechanism ===
+[OK] Verified exact ceil-based lower bound in 768 region/base/depth cases
+
+=== Asymptotic Theta bound with explicit scale threshold ===
+[OK] Verified eventual Theta bounds with c1=1/2 and c2=2 in 768 cases
+
+=== Finite-scale guard for arbitrary macroscopic regions ===
+[OK] Arbitrary small-scale regions need an eventual-scale hypothesis for positive lower Theta bounds
+
+=== Coarse-grained counting measure and convergence to interval length ===
+[OK] Push-forward counting probabilities converge to macroscopic interval lengths
+
+=== Macroscopic partition consistency ===
+[OK] Checked exact count and probability additivity for 420 partitions
+
+=== Exponential growth of indistinguishable deterministic realizations ===
+[OK] Fixed-resolution degeneracy has positive exponential lower and upper envelopes
+
+=== Deterministic extensions of indistinguishable prefixes ===
+[OK] Checked 1069 deterministic continuations with disjoint prefix classes
+
+=== Sensitivity to early internal-state changes ===
+[OK] Checked 135 finite sensitivity cases and the symbolic rho jump s^(-j)
+
+=== Determinism guard: probabilities are counting push-forwards ===
+[OK] No primitive randomness is used: effective probabilities are induced by finite counting
+
+=== Negative domain tests ===
+[OK] All invalid-domain cases are rejected
+
+=== Emergent stochasticity verification completed successfully ===

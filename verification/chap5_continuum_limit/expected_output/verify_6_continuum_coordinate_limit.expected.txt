@@ -1,0 +1,43 @@
+=== Verification of strict continuum coordinate limit (sec:continuum-coordinate-limit) ===
+
+=== Continuum-limit definition and nested finite refinements ===
+[OK] Sigma_N is nested in Sigma_{N+1}
+[OK] finite truncation union_{j<=N} Sigma_j equals Sigma_N
+[OK] 0 is always present; 1 is never finite-level present but is approached by 1-s^{-N}
+
+=== Exact cell-level spectral refinement ===
+[OK] each coarse cell receives exactly s-1 new refined points
+[OK] the terminal cell before 1 is refined while 1 remains excluded
+
+=== Constructive exact density in [0,1) ===
+[OK] constructed exact spectral points in 630 rational intervals
+[OK] the proof choice q0=floor(a*s^N)+1 always lands inside (a,b)
+
+=== Mesh approximation and boundary discipline ===
+[OK] every sampled r in [0,1] has lower spectral approximants with error <= s^{-N}
+[OK] 1 is not included but is approached by the sequence 1-s^{-N}
+
+=== Greedy infinite s-adic expansion and finite partial spectra ===
+[OK] verified greedy expansion identities for 756 exact rational partial sums
+[OK] every checked partial sum belongs to the corresponding finite spectrum Sigma_m
+
+=== Expected non-uniqueness of s-adic expansions at finite s-adic rationals ===
+[OK] checked 475 finite s-adic rationals with terminating and repeating-tail expansions
+[OK] the repeating (s-1)-tail converges to the same value with exact error s^{-(N+M)}
+
+=== Self-similarity of the continuum coordinate limit ===
+[OK] left-to-right self-similarity witnesses checked: 2824
+[OK] right-to-left self-similarity witnesses checked: 60016
+
+=== Dense but not equal to the full interval ===
+[OK] 1/(s+1) is never an s-adic finite-ratio point for base s
+[OK] neighborhoods of such missing points still contain exact spectral points
+
+=== Guard against identifying any finite spectrum with the continuum ===
+[OK] finite spectra remain finite grids and are never [0,1)
+[OK] gaps exist at every finite depth even though the infinite union is dense
+
+=== Negative domain tests ===
+[OK] invalid bases, depths, intervals, digits, prefixes and spectral witnesses are rejected
+
+=== Continuum coordinate limit verification completed successfully ===

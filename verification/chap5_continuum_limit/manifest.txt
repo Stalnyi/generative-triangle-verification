@@ -1,0 +1,91 @@
+Chapter 5: The Continuum Limit, Scale Structure, and Emergent Physical Geometry
+
+[1]
+Manuscript source:
+  chap5_continuum_limit/1_coordinate_basis_causal_structure.tex
+
+Verification script:
+  anc/verification/chap5_continuum_limit/scripts/verify_1_coordinate_basis.py
+
+Expected output:
+  anc/verification/chap5_continuum_limit/expected_output/verify_1_coordinate_basis.expected.txt
+
+[2]
+Manuscript source:
+  chap5_continuum_limit/2_digit_coordinate_causal_layer.tex
+
+Verification script:
+  anc/verification/chap5_continuum_limit/scripts/verify_2_digit_coordinate_causal_layer.py
+
+Expected output:
+  anc/verification/chap5_continuum_limit/expected_output/verify_2_digit_coordinate_causal_layer.expected.txt
+
+[3]
+Manuscript source:
+  chap5_continuum_limit/3_normalized_causal_coordinate.tex
+
+Verification script:
+  anc/verification/chap5_continuum_limit/scripts/verify_3_normalized_causal_coordinate.py
+
+Expected output:
+  anc/verification/chap5_continuum_limit/expected_output/verify_3_normalized_causal_coordinate.expected.txt
+
+[4]
+Manuscript source:
+  chap5_continuum_limit/4_discrete_causal_interval.tex
+
+Verification script:
+  anc/verification/chap5_continuum_limit/scripts/verify_4_discrete_causal_interval.py
+
+Expected output:
+  anc/verification/chap5_continuum_limit/expected_output/verify_4_discrete_causal_interval.expected.txt
+
+[5]
+Manuscript source:
+  chap5_continuum_limit/5_spectral_structure_causal_layer.tex
+
+Verification script:
+  anc/verification/chap5_continuum_limit/scripts/verify_5_spectral_structure_causal_layer.py
+
+Expected output:
+  anc/verification/chap5_continuum_limit/expected_output/verify_5_spectral_structure_causal_layer.expected.txt
+
+[6]
+Manuscript source:
+  chap5_continuum_limit/6_continuum_coordinate_limit.tex
+
+Verification script:
+  anc/verification/chap5_continuum_limit/scripts/verify_6_continuum_coordinate_limit.py
+
+Expected output:
+  anc/verification/chap5_continuum_limit/expected_output/verify_6_continuum_coordinate_limit.expected.txt
+
+[7]
+Manuscript source:
+  chap5_continuum_limit/7_continuum_lorentzian_form.tex
+
+Verification script:
+  anc/verification/chap5_continuum_limit/scripts/verify_7_continuum_lorentzian_form.py
+
+Expected output:
+  anc/verification/chap5_continuum_limit/expected_output/verify_7_continuum_lorentzian_form.expected.txt
+
+[8]
+Manuscript source:
+  chap5_continuum_limit/8_scale_structure_causal_cones.tex
+
+Verification script:
+  anc/verification/chap5_continuum_limit/scripts/verify_8_scale_structure_causal_cones.py
+
+Expected output:
+  anc/verification/chap5_continuum_limit/expected_output/verify_8_scale_structure_causal_cones.expected.txt
+
+[9]
+Manuscript source:
+  chap5_continuum_limit/9_emergent_stochasticity.tex
+
+Verification script:
+  anc/verification/chap5_continuum_limit/scripts/verify_9_emergent_stochasticity.py
+
+Expected output:
+  anc/verification/chap5_continuum_limit/expected_output/verify_9_emergent_stochasticity.expected.txt

@@ -1,0 +1,35 @@
+=== Verification of cumulative spin coordinate (sec:cumulative-spin-coordinate) ===
+
+=== Symbolic verification of the cumulative coordinate formula ===
+[OK] Sigma_n = (N_+ - N_-)/2 and Sigma_n = q - n/2 verified symbolically
+[OK] Endpoint and parity-zero conditions verified symbolically
+
+=== Exact finite enumeration of spectrum and multiplicities ===
+[OK] Exact spectra checked for n = 0..12
+[OK] Spectral multiplicities match binomial(n,k) for every value
+
+=== Exact verification of count formula, sharp bounds, and extremizers ===
+[OK] Explicit count formula verified over all binary internal-state sequences up to n = 14
+[OK] Bounds are sharp and both endpoints are attained
+
+=== Exact verification of balanced trajectories ===
+[OK] Sigma_n = 0 occurs exactly for even n
+[OK] Balanced multiplicity equals binomial(n,n/2) when n is even
+
+=== Exact verification of cumulative-profile completeness ===
+[OK] Every internal-state sequence maps to exactly one cumulative profile
+[OK] Every valid cumulative profile recovers exactly one internal-state sequence
+
+=== Verification that the profile does not encode the initial element ===
+[OK] The cumulative profile encodes the internal-state sequence, not the initial element
+[OK] Level multiplicities scale by |A| exactly
+
+=== Negative domain checks for state sequences and profiles ===
+[OK] Invalid internal states and wrong lengths are rejected
+[OK] Invalid cumulative profiles are rejected without vacuous passing
+
+=== Prefix-level spectral consistency of cumulative profiles ===
+[OK] Every partial coordinate Sigma_ell lies in the exact spectrum at depth ell
+[OK] Every depth-ell spectral value is attained by a cumulative profile
+
+=== Cumulative spin coordinate verification completed successfully ===

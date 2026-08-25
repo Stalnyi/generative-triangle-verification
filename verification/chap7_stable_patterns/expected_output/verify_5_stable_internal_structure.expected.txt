@@ -1,0 +1,38 @@
+=== Verification of stable internal structure (sec:stable-internal-structure) ===
+
+=== Finite internal profiles and exact diameters ===
+[OK] B_n(P), F_n(P), D_barSigma,n(P), and D_f,n(P) are exact finite-profile quantities
+[OK] Invalid finite projections and invalid internal states are rejected soundly
+
+=== Finite-dimensional norm checks for frequency-vector diameters ===
+[OK] Exact grid checks confirm compatible l1, l_infinity, and l2^2 diameter controls
+[OK] Vanishing of D_f,n is not an artifact of a particular finite-dimensional norm
+
+=== Causal localization does not imply stable internal organization ===
+[OK] Constructed D_rho,n->0 and bounded D_r,n with persistent internal-state frequency spread
+[OK] Geometric localization alone is rejected as stable internal organization
+
+=== Proposition: convergence of the frequency profile ===
+[OK] Exact branches with D_f,n->0 converge to the same limiting frequency vector
+[OK] Symbolic triangle-inequality error bound tends to zero
+
+=== Frequency profile controls scalar spin profile; converse fails ===
+[OK] Exact Lipschitz checks verify D_f,n->0 implies D_barSigma,n->0
+[OK] Distinct frequency profiles with identical scalar normalized spin value prove the converse fails
+
+=== Internal blurring modes ===
+[OK] Persistent scalar spread, missing individual limit, and scalar-blind frequency spread are rejected
+
+=== Stable internal structure under admissible recursively compatible continuations ===
+[OK] A single frequency limit is preserved along all admissible recursively compatible continuations
+[OK] Bad branches are ignored only when they are explicitly inadmissible or recursively incompatible
+[OK] The empty-active-continuation case is not accepted vacuously
+
+=== Localized internally stable recursive structure as a conjunction ===
+[OK] The final definition is enforced as recursive stability AND localization AND internal constancy
+[OK] Weak and strong localization are accepted exactly as the allowed localization regimes
+
+=== Minimal symbolic dependencies for the internal linear functional ===
+[OK] The endpoint bound B_s=(s-1)/2 used in the Lipschitz implication is symbolically consistent
+
+=== Stable internal structure verification completed successfully ===

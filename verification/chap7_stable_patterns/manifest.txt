@@ -1,0 +1,91 @@
+Chapter 7: Stable Recursive Patterns
+
+[1]
+Manuscript source:
+  chap7_stable_patterns/1_recursive_macro_classes.tex
+
+Verification script:
+  anc/verification/chap7_stable_patterns/scripts/verify_1_recursive_macro_classes.py
+
+Expected output:
+  anc/verification/chap7_stable_patterns/expected_output/verify_1_recursive_macro_classes.expected.txt
+
+[2]
+Manuscript source:
+  chap7_stable_patterns/2_recursive_controlled_characteristics.tex
+
+Verification script:
+  anc/verification/chap7_stable_patterns/scripts/verify_2_controlled_characteristics_invariants.py
+
+Expected output:
+  anc/verification/chap7_stable_patterns/expected_output/verify_2_controlled_characteristics_invariants.expected.txt
+
+[3]
+Manuscript source:
+  chap7_stable_patterns/3_recursive_stability_macroclasses.tex
+
+Verification script:
+  anc/verification/chap7_stable_patterns/scripts/verify_3_recursive_stability_macroclasses.py
+
+Expected output:
+  anc/verification/chap7_stable_patterns/expected_output/verify_3_recursive_stability_macroclasses.expected.txt
+
+[4]
+Manuscript source:
+  chap7_stable_patterns/4_causal_localization_stable_structures.tex
+
+Verification script:
+  anc/verification/chap7_stable_patterns/scripts/verify_4_causal_localization_stable_structures.py
+
+Expected output:
+  anc/verification/chap7_stable_patterns/expected_output/verify_4_causal_localization_stable_structures.expected.txt
+
+[5]
+Manuscript source:
+  chap7_stable_patterns/5_stable_internal_structure.tex
+
+Verification script:
+  anc/verification/chap7_stable_patterns/scripts/verify_5_stable_internal_structure.py
+
+Expected output:
+  anc/verification/chap7_stable_patterns/expected_output/verify_5_stable_internal_structure.expected.txt
+
+[6]
+Manuscript source:
+  chap7_stable_patterns/6_particle_like_structures.tex
+
+Verification script:
+  anc/verification/chap7_stable_patterns/scripts/verify_6_particle_like_structures.py
+
+Expected output:
+  anc/verification/chap7_stable_patterns/expected_output/verify_6_particle_like_structures.expected.txt
+
+[7]
+Manuscript source:
+  chap7_stable_patterns/7_microhistorical_multiplicity_combinatorial_characteristics_part_1.tex
+
+Verification script:
+  anc/verification/chap7_stable_patterns/scripts/verify_7_microhistorical_multiplicity_combinatorial_characteristics_part_1.py
+
+Expected output:
+  anc/verification/chap7_stable_patterns/expected_output/verify_7_microhistorical_multiplicity_combinatorial_characteristics_part_1.expected.txt
+
+[8]
+Manuscript source:
+  chap7_stable_patterns/7_microhistorical_multiplicity_combinatorial_characteristics_part_2.tex
+
+Verification script:
+  anc/verification/chap7_stable_patterns/scripts/verify_7_microhistorical_multiplicity_combinatorial_characteristics_part_2.py
+
+Expected output:
+  anc/verification/chap7_stable_patterns/expected_output/verify_7_microhistorical_multiplicity_combinatorial_characteristics_part_2.expected.txt
+
+[9]
+Manuscript source:
+  chap7_stable_patterns/7_microhistorical_multiplicity_combinatorial_characteristics_part_3.tex
+
+Verification script:
+  anc/verification/chap7_stable_patterns/scripts/verify_7_microhistorical_multiplicity_combinatorial_characteristics_part_3.py
+
+Expected output:
+  anc/verification/chap7_stable_patterns/expected_output/verify_7_microhistorical_multiplicity_combinatorial_characteristics_part_3.expected.txt

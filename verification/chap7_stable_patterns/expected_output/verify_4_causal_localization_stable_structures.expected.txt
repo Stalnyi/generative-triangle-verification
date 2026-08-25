@@ -1,0 +1,58 @@
+=== Verification of causal localization and containment of stable recursive structures ===
+
+=== Finite geometric profiles and exact diameters ===
+[OK] Checked 60 finite projections over several bases and levels
+[OK] Delta-rho and logarithmic profiles are exact images of finite projections
+[OK] D_rho and D_r are exact finite pairwise suprema
+[OK] Invalid finite projections and invalid internal-state prefixes are rejected soundly
+
+=== Symbolic verification of logarithmic diameter formula ===
+[OK] D_r = log_s((D_max+1)/(D_min+1)) follows symbolically from r=log_s(D+1)
+[OK] Boundary and positivity cases were checked for exact integer coordinates
+
+=== Weak and strong causal-localization logic ===
+[OK] Weak localization is correctly verified as a disjunction
+[OK] Strong localization is correctly verified as a conjunction
+[OK] Strong localization implies weak localization, and the converse fails
+[OK] Localization regimes are invariant under finite tail shifts
+
+=== Verification that O(1) is not replaced by equal slope ===
+[OK] Equal leading linear slope does not imply D_r=O(1)
+[OK] log(n) and sqrt(n) deviations are correctly rejected as unbounded spread
+[OK] A constant offset is correctly accepted as O(1)
+
+=== Loss of localization and logical complement of weak localization ===
+[OK] not weakly localized iff limsup D_rho=1 and D_r is not O(1)
+[OK] Full-cone filling, unbounded logarithmic spread, and oscillatory limsup failure are detected
+
+=== Causal containment under unbounded recursive refinement ===
+[OK] Compatible recursive-refinement towers are accepted
+[OK] Incompatible one-step refinements are rejected
+[OK] Weak and strong containment modes are distinguished
+[OK] Escaping geometry is not causally contained
+[OK] Empty continuation families are not accepted vacuously
+
+=== Independence of recursive stability and causal localization ===
+[OK] Recursive stability does not imply causal localization
+[OK] Causal localization does not imply recursive stability
+[OK] The conjunction can be satisfied, and can also fail completely
+
+=== Localized recursively stable structure as a genuine conjunction ===
+[OK] All three defining clauses are necessary
+[OK] Weakly localized stable containment is distinguished from strongly localized stable containment
+
+=== Boundary as loss of recursive compatibility/admissibility ===
+[OK] Accepted region is exactly the recursively compatible admissible region
+[OK] Boundary failures are compatible refinements that leave the controlled geometric profile
+[OK] Changing the organization predicate changes the boundary, so no fixed external cut is used
+
+=== Geometric localization versus internal-state organization ===
+[OK] Identical geometric localization data can coexist with different internal-state frequency data
+[OK] Geometric localization alone does not enforce internal-state organization
+[OK] Nonconvergent internal organization is invisible to the geometric localization predicate
+
+=== Exact examples of causal-cone spread and localization regimes ===
+[OK] Strong finite witnesses have D_rho -> 0 and bounded D_r
+[OK] Full-cone finite witnesses have D_rho -> 1 and unbounded D_r
+
+=== Causal localization verification completed successfully ===

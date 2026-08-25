@@ -1,0 +1,45 @@
+=== Verification of gravitational waves as compatible stable-measure perturbations ===
+
+=== Symbolic verification of wave amplitude and profile identities ===
+[OK] Delta ln N = (ln s) Delta m_comb is symbolic
+[OK] h_s = G_s Delta m_comb is symbolic
+[OK] delta_mu_wave = -G_s Delta m_comb Psi is symbolic
+[OK] background/wave sector-deficit split is symbolic
+
+=== Finite-grid verification of combinatorial and sector amplitudes ===
+[OK] Checked 3706 finite multiplicity-change pairs
+[OK] Checked 3706 signed sector-amplitude cases
+[OK] Checked 168 zero/unit boundary cases
+
+=== Verification of background and wave sector-deficit split ===
+[OK] Checked 100 background/wave decompositions
+[OK] Checked 77 valid compatible-measure ranges
+
+=== Verification of wave profile and sector decomposition ===
+[OK] Checked 240 wave-profile values
+[OK] Checked 60 zero-wave profile cases
+[OK] Checked 180 exact wave-deficit reconstructions
+[OK] Checked 180 signed-amplitude/profile cases
+
+=== Verification of wave-sector and spatial-causal support ===
+[OK] Checked 48 nonzero wave-sector layers
+[OK] Checked 779211 support endpoints
+[OK] Checked 48 empty wave-support cases
+[OK] Checked 779211 causal speed-bound support witnesses
+
+=== Verification of gravitational-wave package ===
+[OK] Checked 35 gravitational-wave packages
+[OK] Checked 175 sector profile decompositions inside packages
+[OK] Checked 35 package support speed bounds
+
+=== Verification of black-hole outward suppression guard ===
+[OK] Checked 3 outward escaping-measure suppression cases
+[OK] Checked 2 internal wave nonvanishing cases
+
+=== Verification of wave feedback through compatible stable measures ===
+[OK] Checked 4 compatible-stability feedback regimes
+
+=== Negative domain tests ===
+[OK] Invalid branching, levels, multiplicities, sectors, digits, supports, profiles, and speed claims are rejected
+
+=== Gravitational-wave compatible-stable-measure verification completed successfully ===

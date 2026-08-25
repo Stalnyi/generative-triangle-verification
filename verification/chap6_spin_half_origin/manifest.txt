@@ -1,0 +1,41 @@
+Chapter 6: The Origin of Spin-1/2-Type Structure
+
+[1]
+Manuscript source:
+  chap6_spin_half_origin/1_spin_microhistory.tex
+
+Verification script:
+  anc/verification/chap6_spin_half_origin/scripts/verify_1_spin_microhistory.py
+
+Expected output:
+  anc/verification/chap6_spin_half_origin/expected_output/verify_1_spin_microhistory.expected.txt
+
+[2]
+Manuscript source:
+  chap6_spin_half_origin/2_centered_spectrum_general.tex
+
+Verification script:
+  anc/verification/chap6_spin_half_origin/scripts/verify_2_centered_spectrum_general.py
+
+Expected output:
+  anc/verification/chap6_spin_half_origin/expected_output/verify_2_centered_spectrum_general.expected.txt
+
+[3]
+Manuscript source:
+  chap6_spin_half_origin/3_cumulative_spin_coordinate.tex
+
+Verification script:
+  anc/verification/chap6_spin_half_origin/scripts/verify_3_cumulative_spin_coordinate.py
+
+Expected output:
+  anc/verification/chap6_spin_half_origin/expected_output/verify_3_cumulative_spin_coordinate.expected.txt
+
+[4]
+Manuscript source:
+  chap6_spin_half_origin/4_asymptotic_spin_structure.tex
+
+Verification script:
+  anc/verification/chap6_spin_half_origin/scripts/verify_4_asymptotic_spin_structure.py
+
+Expected output:
+  anc/verification/chap6_spin_half_origin/expected_output/verify_4_asymptotic_spin_structure.expected.txt

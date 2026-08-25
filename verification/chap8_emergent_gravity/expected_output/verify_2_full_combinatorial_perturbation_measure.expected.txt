@@ -1,0 +1,42 @@
+=== Verification of full combinatorial perturbation measure ===
+
+=== Symbolic verification of change of base and uniqueness ===
+[OK] ln N = (ln s) log_s N is symbolic
+[OK] evaluating at N=s forces C=ln s
+[OK] N=1 is correctly identified as non-determining for C
+[OK] derivative notation is the slope of y(m)=m ln s
+[OK] -ln(theta)=(ln s)(-log_s theta) is symbolic
+
+=== Exact finite-grid verification of coefficient uniqueness ===
+[OK] Checked 576 admissible ln N = (ln s)m cases
+[OK] Checked 52 wrong coefficients failing at N=s
+[OK] Checked 52 N=1 non-uniqueness cases
+
+=== Verification of reconstruction and boundary cases ===
+[OK] Checked 367 reconstructions N=s^m and ln N=m ln s
+[OK] Checked 200 boundary cases
+[OK] Checked 550 exact power cases
+
+=== Verification of finite variations and unit mass increment ===
+[OK] Checked 2956 nonzero finite-change pairs
+[OK] Checked 2956 finite-difference ratios equal ln s
+[OK] Checked 360 unit mass increments N -> sN
+
+=== Verification of derivative notation as exact linear slope only ===
+[OK] Checked 1008 linear-slope chord cases
+[OK] Checked 360 admissible logarithmic chord cases
+[OK] Derivative notation is guarded against adding a continuum assumption
+
+=== Verification of stability-deficit natural-log conversion ===
+[OK] Checked 450 deficit conversion cases
+[OK] Checked 2132 deficit finite-variation cases
+[OK] Checked 160 theta boundary cases
+
+=== Full combinatorial measure and sector projection are distinct ===
+[OK] Checked 48 branching factors for G_comb != (ln s)/s
+[OK] Checked 96 full-versus-sector projection cases
+
+=== Negative domain tests ===
+[OK] Invalid branching, levels, multiplicities, theta values, and finite-change requests are rejected
+
+=== Full combinatorial perturbation-measure verification completed successfully ===

@@ -1,0 +1,35 @@
+=== Verification of centered spectrum of internal generative states ===
+
+=== Symbolic verification of unit-scale affine centering ===
+[OK] Unit-scale affine centering has the unique symbolic offset beta=-(s+1)/2
+[OK] Any nonzero offset from the unit-scale beta produces a nonzero mean
+
+=== Symbolic guard: centering is not unique without alpha=1 ===
+[OK] General affine centering has beta=-alpha*(s+1)/2
+[OK] The unit-scale hypothesis is necessary for uniqueness of the theorem's normalization
+
+=== Symbolic verification of endpoint, spacing and zero-sum formulas ===
+[OK] Symbolic endpoint, spacing, mirror-symmetry, zero-sum and second-moment formulas verified
+
+=== Exact verification of the centered spectrum structure ===
+[OK] Exact endpoints, spacing, radius, zero mean and mirror symmetry verified for s=2..80
+
+=== Exact and symbolic verification of integer/half-integer parity classification ===
+[OK] Odd s gives integer spectra; even s gives strict half-integer spectra
+[OK] Symbolic parity-parametrized expressions match the classification
+
+=== Verification of the unique minimal two-state half-integer spectrum ===
+[OK] s=2 gives exactly {-1/2,+1/2}
+[OK] Larger even s are half-integer but not minimal two-state spectra
+
+=== Verification of fixed-s classification discipline ===
+[OK] Each spectrum is validated against one fixed value of s
+[OK] Mixed, duplicated, missing and reordered spectra are rejected
+
+=== Negative-domain verification ===
+[OK] Invalid s, invalid state sets, wrong offsets and parity misclassifications are rejected
+
+=== Dense exact finite grid verification ===
+[OK] Checked 14518 exact rational perturbation, mirror and radius cases
+
+=== Centered spectrum general verification completed successfully ===

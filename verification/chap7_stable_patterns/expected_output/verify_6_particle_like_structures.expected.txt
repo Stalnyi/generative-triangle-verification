@@ -1,0 +1,32 @@
+=== Verification of particle-like recursive structures (sec:particle-like-structures) ===
+
+=== Symbolic verification of the particle-like gate ===
+[OK] Particle-like status is exactly the conjunction of the four base conditions and distinguishability
+[OK] No single base condition can be dropped without changing the predicate
+
+=== Verification of asymptotic distinguishability ===
+[OK] Distinguishability is irreflexive and symmetric on valid candidates
+[OK] Distinguishability is not transitive; the complement is equality of the full invariant signature
+
+=== Verification of candidate and particle-like status ===
+[OK] Candidate status is the exact conjunction of the four inherited structural conditions
+[OK] Particle-like status holds exactly for candidates uniquely distinguishable among other candidates
+[OK] Non-candidates are ignored by the universal comparison over other macroclass-candidates
+
+=== Verification of invariant-signature quotient ===
+[OK] Non-distinguishable candidate labels collapse to one invariant-signature class
+[OK] Distinguishable candidate profiles remain separated in the quotient
+
+=== Verification of invariant-family exactness ===
+[OK] Only selected invariants contribute to asymptotic distinguishability
+[OK] Missing invariant values are rejected and an empty invariant family cannot separate two candidates
+
+=== Verification of recursive identity under arbitrary refinements ===
+[OK] Recursive identity is preserved by all admissible refinements with the same full invariant signature
+[OK] Changing an invariant or losing admissibility breaks recursive identity
+
+=== Verification of the gate to quantitative characteristics ===
+[OK] Microhistorical multiplicity and combinatorial mass are gated by particle-like status only
+[OK] No independent mass or multiplicity formula is introduced in this verification block
+
+=== Particle-like recursive structures verification completed successfully ===

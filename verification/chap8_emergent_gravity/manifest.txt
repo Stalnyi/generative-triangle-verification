@@ -1,0 +1,61 @@
+Chapter 8: Gravity as an Emergent Causal-Geometric Deformation
+
+[1]
+Manuscript source:
+  chap8_emergent_gravity/1_microhistorical_density_and_combinatorial_mass.tex
+
+Verification script:
+  anc/verification/chap8_emergent_gravity/scripts/verify_1_microhistorical_density_and_combinatorial_mass.py
+
+Expected output:
+  anc/verification/chap8_emergent_gravity/expected_output/verify_1_microhistorical_density_and_combinatorial_mass.expected.txt
+
+[2]
+Manuscript source:
+  chap8_emergent_gravity/2_full_combinatorial_perturbation_measure.tex
+
+Verification script:
+  anc/verification/chap8_emergent_gravity/scripts/verify_2_full_combinatorial_perturbation_measure.py
+
+Expected output:
+  anc/verification/chap8_emergent_gravity/expected_output/verify_2_full_combinatorial_perturbation_measure.expected.txt
+
+[3]
+Manuscript source:
+  chap8_emergent_gravity/3_sector_causal_geometric_projection.tex
+
+Verification script:
+  anc/verification/chap8_emergent_gravity/scripts/verify_3_sector_causal_geometric_projection.py
+
+Expected output:
+  anc/verification/chap8_emergent_gravity/expected_output/verify_3_sector_causal_geometric_projection.expected.txt
+
+[4]
+Manuscript source:
+  chap8_emergent_gravity/4_gravitational_attraction_as_sector_deficit.tex
+
+Verification script:
+  anc/verification/chap8_emergent_gravity/scripts/verify_4_gravitational_attraction_as_sector_deficit.py
+
+Expected output:
+  anc/verification/chap8_emergent_gravity/expected_output/verify_4_gravitational_attraction_as_sector_deficit.expected.txt
+
+[5]
+Manuscript source:
+  chap8_emergent_gravity/5_black_hole_causal_closure.tex
+
+Verification script:
+  anc/verification/chap8_emergent_gravity/scripts/verify_5_black_hole_causal_closure.py
+
+Expected output:
+  anc/verification/chap8_emergent_gravity/expected_output/verify_5_black_hole_causal_closure.expected.txt
+
+[6]
+Manuscript source:
+  chap8_emergent_gravity/6_gravitational_waves_compatible_stable_measure.tex
+
+Verification script:
+  anc/verification/chap8_emergent_gravity/scripts/verify_6_gravitational_waves_compatible_stable_measure.py
+
+Expected output:
+  anc/verification/chap8_emergent_gravity/expected_output/verify_6_gravitational_waves_compatible_stable_measure.expected.txt

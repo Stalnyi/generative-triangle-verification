@@ -1,0 +1,38 @@
+=== Verification of coordinate spectrum of the causal layer ===
+
+=== Exact uniform coordinate spectrum ===
+[OK] Verified exact spectra, endpoints, order and spacing for 72079 spectral points
+
+=== Exact s-adic fractional representation and decoding ===
+[OK] Checked 34631 exact digit/state-prefix/fraction conversions
+[OK] Leading zero digit cases preserved: 5624
+
+=== Monotone ordering induced by digit coordinates ===
+[OK] Verified strict monotonicity for 61259 exact ordered digit pairs
+
+=== Spectral step and vanishing scale ===
+[OK] Exact step rho_{k+1}-rho_k = s^{-Delta} verified
+[OK] Vanishing follows from s^{-Delta} <= 2^{-Delta} and lim 2^{-Delta}=0
+
+=== Recursive self-similarity of spectra ===
+[OK] Verified exact self-similar decomposition for 15004 refined spectral points
+
+=== Exact spectral refinement and nesting ===
+[OK] Nested inherited points checked: 2824; new refined points checked: 12180
+[OK] Each coarse cell has exactly s refined points in 2824 exact cells
+
+=== Constructive density of the infinite spectral union in [0,1) ===
+[OK] Constructed spectral points inside 4440 rational intervals
+[OK] Largest constructed depth used: 9
+
+=== Finite-depth non-continuum guard ===
+[OK] Verified 176 finite-depth exclusions from the full interval [0,1]
+
+=== Integration with level coordinates and ancestor independence ===
+[OK] Checked 180 causal layers across absolute levels and ancestors
+[OK] Checked 7440 generated descendants with identical spectra
+
+=== Negative domain and corruption tests ===
+[OK] Invalid domains and nonmatching causal-layer data are rejected soundly
+
+=== Coordinate spectrum verification completed successfully ===

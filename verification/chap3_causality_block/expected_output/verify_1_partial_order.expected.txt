@@ -1,0 +1,41 @@
+=== Verification of partial order and causality (sec:partial_order) ===
+
+=== Symbolic verification of causal composition and poset constraints ===
+[OK] Digit-coordinate composition is symbolic
+[OK] Depth-zero reachability is identity
+[OK] Composed digits stay in the exact admissible range
+
+=== Verification of coordinate criterion against generated chains ===
+[OK] Checked 7650 generated finite chains
+[OK] Checked 7650 exact coordinate decodings
+[OK] Checked 304 adjacent noncausal coordinate witnesses
+
+=== Exact finite verification of poset axioms ===
+[OK] Reflexivity checked on 297 points
+[OK] Transitivity checked on 45100 composable triples
+[OK] Antisymmetry checked on 3641 same-level pairs
+[OK] Nonzero cycle absence checked on 1728 causal pairs
+
+=== Verification of future and past cone cardinalities ===
+[OK] Checked 492 future cone slices
+[OK] Checked 37527 future cone points
+[OK] Checked 334 singleton past cone slices
+[OK] Checked 334 unique past cone elements
+
+=== Verification of unique past chains and causal diamonds ===
+[OK] Checked 81 unique past chains
+[OK] Checked 252 predecessor edges in past chains
+[OK] Checked 333 causal diamonds
+[OK] Checked 1005 singleton diamond level slices
+[OK] Checked 672 future-branching versus diamond-linearity guards
+
+=== Negative guards: branching, time order, and noncausal pairs ===
+[OK] Checked 969 same-level comparability cases
+[OK] Checked 45 branching incomparability witnesses
+[OK] Checked 3 time-order nonconverse witnesses
+[OK] Checked 3 noncausal diamond rejections
+
+=== Negative domain tests ===
+[OK] Invalid parameters, coordinates, levels, states, chains, and noncausal requests are rejected
+
+=== Partial-order verification completed successfully ===

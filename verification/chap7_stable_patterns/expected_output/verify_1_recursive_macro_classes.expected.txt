@@ -1,0 +1,58 @@
+=== Verification of recursive macro-classes of causal microhistories ===
+
+=== Symbolic verification of the centered spectrum for arbitrary s >= 2 ===
+[OK] sum_{sigma=1}^s eta(sigma)=0 symbolically for arbitrary s
+[OK] endpoint extrema and B_s=(s-1)/2 are verified symbolically
+[OK] finite monotonicity checks confirm that no interior state exceeds B_s
+
+=== Symbolic verification of the frequency profile identity ===
+[OK] barSigma_n=sum_sigma eta(sigma) f_sigma is verified as a symbolic Sum identity
+[OK] sum_sigma f_sigma=1 follows symbolically from n=sum_sigma N_sigma
+
+=== Exhaustive exact verification of finite frequency profiles ===
+[OK] Exhaustively checked 27395 finite state sequences
+[OK] Counts, frequencies, cumulative spin and normalized spin agree exactly
+
+=== Verification of recursive compatibility and Delta rho ===
+[OK] Checked 468 finite prefixes from recursively compatible families
+[OK] Prefix recursion, generated x_chi^(n), u-coordinate and Delta rho match exactly
+
+=== Verification of macro-equivalence as an equivalence relation ===
+[OK] Reflexivity, symmetry and transitivity verified for the three-clause quotient
+[OK] Negative witnesses isolate rho, O(1)-class and spin-limit failures
+
+=== Verification that the O(1) clause is not slope equality ===
+[OK] Equal leading slope is verified to be insufficient for the O(1) clause
+[OK] log(n) and sqrt(n) examples have the same slope but unbounded r-difference
+[OK] The macro relation uses an explicit O(1)-class, not r_slope equality
+
+=== Verification of finite projections P_n of a macro-class ===
+[OK] P_n contains exactly realized length-n prefixes of valid representatives
+[OK] Fixed ancestor, length condition and prefix-consistency P_{n+1}->P_n hold
+
+=== Guard against false non-singleton projection tests ===
+[OK] Ambiguous rho equality alone is rejected when the spin-limit clause fails
+[OK] Small exhaustive periodic search found no false multi-prefix macro-class projection
+
+=== Verification of one-step refinement of normalized spin ===
+[OK] Symbolically derived the exact one-step refinement formula
+[OK] Exhaustively checked 96589 one-step extensions
+[OK] The bound 2B_s/(n+1) is satisfied and sharp
+
+=== Verification of branching under unlimited recursive continuation ===
+[OK] Checked 15024 refined prefixes across s=2,...,6
+[OK] Pure endpoint continuations have distinct spin limits and different macro-profiles
+
+=== Isolated witness for the spin clause of macro-equivalence ===
+[OK] rho-limit and O(1)-class are fixed while only the spin limit changes
+[OK] Macro-equivalence fails solely through the spin clause in this profile witness
+
+=== Dependency check: finite use of normalized coordinate refinement ===
+[OK] The finite coordinate spectrum used by macro-classes is exactly {D/s^n}
+[OK] Recursive refinement appends one internal state at scale s^{-(n+1)}
+
+=== Domain and failure-case verification ===
+[OK] Expected-failure checks are structurally sound
+[OK] Empty prefixes, wrong ancestors and invalid states are rejected
+
+=== recursive_macro_classes verification completed successfully ===

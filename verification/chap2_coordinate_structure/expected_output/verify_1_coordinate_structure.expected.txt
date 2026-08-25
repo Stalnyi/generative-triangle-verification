@@ -1,0 +1,33 @@
+=== Verification of coordinate structure (1_coordinate_structure.tex) ===
+
+=== Symbolic verification of the level/time coordinate identities ===
+[OK] Symbolic formulas for m_n, level adjacency and the time-level recursion are exact
+
+=== Verification of S^n and tagged finite-sequence domains ===
+[OK] S^0, |S^n| = s^n, state admissibility and depth-tag disjointness verified
+
+=== Exhaustive verification of Psi : A x S^n -> L_n on finite models ===
+[OK] Checked 24031 exact Psi images with inverse decoding and no collisions
+
+=== Verification of empty sequence and root dependence ===
+[OK] Empty sequence belongs exactly to level 0; root data is necessary when k > 1
+
+=== Verification of causal direction versus time coordinate ===
+[OK] Checked 62 reflexive causal-reachability cases
+[OK] Checked 420 nontrivial ancestry cases with strict time increase
+[OK] Exact counterexample confirms that t(x) < t(y) does not imply ancestry
+
+=== Verification of the numerical illustration for s = 2, A = {1, 2} ===
+[OK] The incorrect path to 11 fails exactly; the stated paths for 11 and 14 succeed
+[OK] Every element of L_2 has exactly one root and one length-2 internal-state sequence
+
+=== Verification of deterministic uniqueness with exponential branching ===
+[OK] Each root has exactly s^n descendants at depth n and |L_n| = |A| s^n
+
+=== Verification of immediate predecessor and internal-state recovery ===
+[OK] Immediate inverse decoding recovers the unique predecessor and internal state
+
+=== Negative domain and corruption tests ===
+[OK] Invalid parameters, states, roots, depths, and corrupted elements are rejected
+
+=== Coordinate structure verification completed successfully ===

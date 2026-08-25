@@ -1,0 +1,36 @@
+=== Verification of asymptotic spin structure (sec:asymptotic-spin-structure) ===
+
+=== Symbolic verification of normalized cumulative coordinate ===
+[OK] barSigma_n = Sigma_n / n equals -1/2 + q/n for q=N_+
+[OK] endpoints and exact normalized spacing 1/n hold symbolically
+
+=== Exact finite enumeration of normalized spectra ===
+[OK] Exhaustively checked 32766 finite internal-state prefixes for n=1,...,14
+[OK] n=0 is correctly rejected for the normalized coordinate and accepted only for Sigma_0=0
+
+=== Constructive verification of asymptotic spectral densification ===
+[OK] Constructed spectral points inside 36 rational open intervals
+[OK] Checked 49 nearest-grid approximations with error <= 1/(2n)
+
+=== Exact verification of balanced trajectories ===
+[OK] Checked parity and balanced-count formulas for 16 even depths
+[OK] Exhaustively enumerated balanced prefixes for 8 even depths
+[OK] Multiplicity scales linearly with the number of fixed initial elements when that factor is included
+
+=== Verification of central-layer maximality ===
+[OK] Symbolic binomial-neighbor ratio gives the center as the unique even-depth maximum
+[OK] Checked central uniqueness for 50 even depths
+[OK] Checked the two adjacent maxima and absence of Sigma_n=0 for 50 odd depths
+
+=== Verification of central-binomial asymptotic regime ===
+[OK] Wallis-type lower bound tends symbolically to 1
+[OK] Checked 14 central-binomial ratios inside the squeeze interval
+[OK] Central multiplicity and balanced multiplicity agree exactly for n=2m
+
+=== Verification of the final corollary as a conjunction ===
+[OK] Densification witnesses and even-depth central maximality coexist exactly as stated
+
+=== Negative domain and consistency checks ===
+[OK] Invalid states, invalid depths, invalid intervals and odd balanced requests are rejected
+
+=== Asymptotic spin structure verification completed successfully ===

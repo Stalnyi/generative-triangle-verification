@@ -1,0 +1,45 @@
+=== Integrated verification of shifted multipospace causality ===
+
+=== Symbolic verification of shift formulas ===
+[OK] c(A_delta)=c(A)+(s-1)delta is symbolic
+[OK] F_delta(x+delta,sigma)=F_0(x,sigma)+delta is symbolic
+[OK] Sigma composition and generation commutation are symbolic
+
+=== Verification of shifted parallel spaces ===
+[OK] Checked 32 shifted constants and shifted initial intervals
+[OK] Checked 224 shifted levels and cardinalities
+[OK] Checked 30864 phi_delta finite-bijection values
+[OK] Checked 2112 shifted generation-edge identities
+[OK] Checked 23400 shifted causal pairs
+[OK] Checked 3360 shifted future-cone slices
+[OK] Checked 2048 shift-distance triangle cases
+
+=== Verification of Sigma shift operator between layers ===
+[OK] Checked 648 Sigma level-set identities
+[OK] Checked 37548 Sigma level-bijection values
+[OK] Checked 25704 identity/inverse/composition cases
+[OK] Checked 10008 Sigma-generation commutation cases
+[OK] Checked 11664 future/past cone preservation cases
+[OK] Checked 4284 level-time preservation cases
+
+=== Verification of tagged global multipospace M ===
+[OK] Checked 30 finite tagged fibers
+[OK] Checked 372 projection values pi(delta,x)=delta
+[OK] Checked 324 no-cross-fiber causality cases
+[OK] Checked 108 global reflexivity cases
+[OK] Checked 5292 global transitivity cases
+[OK] Checked 752 global antisymmetry cases
+[OK] Checked 432 localized global cone slices
+[OK] Checked 432 Sigmahat fiber-isomorphism cases
+[OK] Checked 1512 chain-locality witnesses
+
+=== Negative guard: raw numeric identification is not Sigma and not causality ===
+[OK] Checked 68 raw same-number identifications that change level
+[OK] Checked 398 raw same-number maps distinct from Sigma
+[OK] Checked 398 raw same-number cross-fiber noncausality cases
+
+=== Negative domain and corruption guards ===
+[OK] Invalid parameters, shifts, levels, states, vertices, and paths are rejected
+[OK] Corrupted generation, wrong-layer, and cross-fiber causality guards pass
+
+=== Shifted multipospace integrated verification completed successfully ===

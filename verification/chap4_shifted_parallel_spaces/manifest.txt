@@ -1,0 +1,13 @@
+Chapter 4: Shifted Parallel Spaces and the Fibered Structure of Multispace
+
+[1]
+Manuscript files covered:
+  chap4_shifted_parallel_spaces/1_shifted_parallel_spaces.tex
+  chap4_shifted_parallel_spaces/2_shift_operator.tex
+  chap4_shifted_parallel_spaces/3_multidim_causality_local_preservation.tex
+
+Verification script:
+  anc/verification/chap4_shifted_parallel_spaces/scripts/verify_shifted_parallel_spaces.py
+
+Expected output:
+  anc/verification/chap4_shifted_parallel_spaces/expected_output/verify_shifted_parallel_spaces.expected.txt

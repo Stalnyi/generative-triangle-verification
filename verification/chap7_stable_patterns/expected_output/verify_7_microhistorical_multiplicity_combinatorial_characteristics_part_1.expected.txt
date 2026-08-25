@@ -1,0 +1,53 @@
+=== Verification of microhistorical multiplicity and combinatorial characteristics ===
+
+=== Symbolic verification of logarithmic combinatorial mass identities ===
+[OK] log_s(s^q)=q, log_s(1)=0 and log_s(s^n)=n verified symbolically
+[OK] m_comb^(n)=n+log_s(theta_stable^(n)) verified symbolically
+[OK] delta_stable^(n)=n-m_comb^(n)=-log_s(theta_stable^(n)) verified symbolically
+
+=== Symbolic check of the reused centered internal-state spectrum ===
+[OK] The centered internal-state spectrum has zero sum for arbitrary s
+[OK] The half-width B_s=(s-1)/2 is recovered symbolically without rechecking prior sections
+
+=== Finite-level stable realization set and exact bounds ===
+[OK] Rejected invalid case: empty support after entry level
+[OK] Checked 5 nontrivial finite levels with stable H_P^(n) support inside S^n
+[OK] Nonempty support after entry level is enforced
+
+=== Domain restrictions and invalid finite-data rejection ===
+[OK] Rejected invalid case: non-particle-like carrier
+[OK] Rejected invalid case: state outside {1,...,s}
+[OK] Rejected invalid case: wrong finite-prefix length
+[OK] Rejected invalid case: certificate outside P_n
+[OK] Rejected invalid case: zero multiplicity logarithm
+[OK] Rejected invalid case: zero stable fraction logarithm
+[OK] Quantitative characteristics cannot be assigned outside their stated domain
+
+=== Finite combinatorial mass: exact boundaries and dense grid bounds ===
+[OK] Boundary cases N=1, N=s^q and N=s^n verified for multiple bases
+[OK] Dense finite grids confirm 0 <= m_comb^(n) <= n whenever 1 <= N <= s^n
+
+=== Exact stable-fraction and stability-deficit identities ===
+[OK] theta_stable=N/s^n reconstructs N exactly
+[OK] theta=1 gives zero deficit; theta=s^(-q) gives deficit q
+[OK] The logarithmic deficit identity also holds for non-power multiplicities
+
+=== Asymptotic combinatorial mass and specific mass regimes ===
+[OK] Bounded support has finite m_comb and zero specific mass
+[OK] Polynomial support is unbounded but has mu_comb=0
+[OK] Partial exponential support has exact specific mass a/b
+[OK] Full s-ary support has mu_comb=1
+[OK] Oscillatory finite masses are correctly identified as nonconvergent
+
+=== Exact finite families for 0 <= mu_comb <= 1 ===
+[OK] Exact finite families realize mu=0, partial 0<mu<1, and mu=1
+[OK] No checked family exceeds the full s^n support bound
+
+=== Strict-support subset and stability-deficit interpretation ===
+[OK] Fixing q internal states removes exactly q full s-ary degrees
+[OK] Positive deficit corresponds to a strict subset of the full causal branching tree
+
+=== Central chain P -> H_P^(n) -> N_stable^(n) -> m_comb^(n) ===
+[OK] The full quantitative chain is internally consistent on a nontrivial family
+
+=== Microhistorical multiplicity and combinatorial-characteristic verification completed successfully ===

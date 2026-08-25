@@ -1,0 +1,55 @@
+=== Verification of black-hole causal closure ===
+
+=== Symbolic verification of escaping-measure and limiting identities ===
+[OK] escaping sector deficit is a normalized cardinality difference
+[OK] total escaping deficit decomposes as a sum of sector deficits
+[OK] lim delta=-mu0_infty is equivalent to lim mu=0
+[OK] escaping profile reconstructs the escaping deficit
+
+=== Verification of exterior regions and escaping sectors ===
+[OK] Checked 150 exterior-region layers
+[OK] Checked 150 Loc/Ext finite partitions
+[OK] Checked 150 escaping-sector sets
+[OK] Checked 2025 endpoint escaping classifications
+
+=== Verification of escaping fragments and sector measures ===
+[OK] Checked 35 escaping-fragment layers
+[OK] Checked 175 sector escaping measure definitions
+[OK] Checked 175 sector monotonicity/deficit cases
+[OK] Checked 35 total sector-decomposition identities
+[OK] Checked 154 normalization guards
+
+=== Verification of strict escaping-deficit criterion ===
+[OK] Checked 120 constructive strict/non-strict cases
+[OK] Checked 33003 exhaustive small fragment subset cases
+[OK] Checked 9 non-subset fragment rejections
+
+=== Verification of black-hole limit equivalence and horizons ===
+[OK] Checked 1 symbolic limiting families
+[OK] Checked 3 exact sequence-limit cases
+[OK] Checked 1 effective-horizon set computations
+[OK] Checked 2 finite epsilon-horizon computations
+[OK] Checked 7 finite epsilon-horizon characterization cases
+[OK] Checked 4 finite epsilon-horizon monotonicity cases
+[OK] Checked 3 nontriviality guards
+
+=== Verification of escaping deficit profile and decomposition ===
+[OK] Checked 240 escaping-profile values
+[OK] Checked 80 zero-profile cases
+[OK] Checked 160 positive-profile cases
+[OK] Checked 160 exact profile decompositions
+[OK] Checked 160 wrong-coefficient reconstruction failures
+
+=== Verification of causal-cone preservation ===
+[OK] Checked 30 unchanged full causal cones
+[OK] Rejected 30 attempted cone shrinkages
+[OK] Rejected 30 attempted forbidden endpoint additions
+[OK] Checked 90 unchanged speed-bound witnesses
+
+=== Verification of trivial versus nontrivial black-hole guards ===
+[OK] Checked 5 trivial/nontrivial black-hole distinction cases
+
+=== Negative domain tests ===
+[OK] Invalid branching, depths, sectors, digits, fragments, measures, limits, profiles, and speed claims are rejected
+
+=== Black-hole causal-closure verification completed successfully ===

@@ -1,0 +1,40 @@
+=== Verification of Section 7, Part 2 (subsections 7.7.7--7.7.12) ===
+
+=== Independent product cardinality and finite-level mass additivity ===
+[OK] Cartesian-product stable support gives exact multiplicative stable count
+[OK] Finite-level combinatorial mass is additive on the positive-multiplicity domain
+
+=== Negative check: additivity is not accepted without independence ===
+[OK] Correlated composition is rejected as a witness for additivity
+[OK] Actual correlated multiplicity does not satisfy the independent-product mass formula
+
+=== Asymptotic mass additivity under finite limiting multiplicities ===
+[OK] Finite asymptotic additivity is verified when both limiting multiplicities exist
+[OK] Divergent finite-level mass is not incorrectly treated as a finite asymptotic mass
+
+=== Binary special case ===
+[OK] N_stable = 2^d gives m_comb = d log_s(2) symbolically
+[OK] In the minimal binary base s=2, m_comb equals d exactly
+
+=== Scalar spin-type signature ===
+[OK] Scalar spin-type signature is the centered linear functional of the limiting frequency profile
+[OK] Convergence of the full frequency profile implies convergence of the scalar signature
+[OK] The scalar signature is not confused with the full frequency profile
+
+=== Causal localization scales ===
+[OK] ell_rho distinguishes strong, weak, and full-spread rho regimes
+[OK] ell_r and boundedness distinguish logarithmic control from loss of control
+
+=== Quantitative asymptotic distinguishability ===
+[OK] Selected-profile distance is positive exactly when selected invariants differ
+[OK] Zero selected-profile distance does not force equality of the full asymptotic signature
+
+=== Macroscopic microhistorical degeneracy and positive finite-level mass ===
+[OK] N_stable^{(n)} > 1 is exactly finite-level microhistorical degeneracy
+[OK] Positive finite-level combinatorial mass is exactly the logarithmic form of that degeneracy
+[OK] Repeated input entries do not create structural degeneracy
+
+=== Global negative-domain guards ===
+[OK] Invalid bases, counts, states, levels, and non-particle-like carriers are rejected
+
+=== Section 7, Part 2 verification completed successfully ===

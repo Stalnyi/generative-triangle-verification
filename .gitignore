@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Системні файли (Mac/Windows)
+.DS_Store

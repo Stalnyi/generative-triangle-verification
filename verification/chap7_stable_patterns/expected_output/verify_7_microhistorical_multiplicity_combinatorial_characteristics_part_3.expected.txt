@@ -1,0 +1,38 @@
+=== Verification of Section 7, Part 3 (subsections 7.7.13--7.7.19) ===
+
+=== Symbolic and exact verification of the internal frequency-to-scalar map ===
+[OK] The scalar spin-type signature is a linear projection of the full frequency profile
+[OK] The scalar projection is not injective: distinct full profiles can have the same scalar value
+
+=== Verification of geometrically identical but internally different structures ===
+[OK] Equal localization scales do not force equality of the full internal frequency profile
+[OK] Two internally different structures can either differ or coincide in scalar spin-type signature
+
+=== Verification of internally identical but geometrically different structures ===
+[OK] Equal full internal profiles force equal scalar signatures
+[OK] Equal internal organization does not force equal causal-localization scales
+
+=== Verification of equal visible profiles but different finite multiplicity ===
+[OK] Equal invariant, internal, and localization profiles do not determine finite stable multiplicity
+[OK] Positive unequal stable multiplicities induce unequal finite-level logarithmic masses
+
+=== Verification of the limit discipline for asymptotic combinatorial mass ===
+[OK] Asymptotic mass equality/difference is controlled by the limit of finite mass differences
+[OK] Integer positive multiplicities impose an additional eventual-constancy guard in the finite-mass domain
+
+=== Verification of same combinatorial mass but different full signature ===
+[OK] Equal combinatorial mass is not a complete descriptor
+[OK] Isomassive structures can differ internally or geometrically in the full limiting signature
+
+=== Verification of finite particle-like signature M_n ===
+[OK] Non-power finite multiplicities satisfy the M_n logarithmic relations
+[OK] M_n contains the listed finite and asymptotic components in the correct order
+[OK] m_comb^(n), theta_stable^(n), and delta_stable^(n) satisfy the exact defining relations
+
+=== Verification of limiting signature M_infty ===
+[OK] M_infty is componentwise sensitive to all listed mathematical data
+
+=== Verification of explicit domain guards and negative cases ===
+[OK] Invalid bases, profiles, localization scales, multiplicities, and missing limits are rejected
+
+=== Section 7, Part 3 verification completed successfully ===

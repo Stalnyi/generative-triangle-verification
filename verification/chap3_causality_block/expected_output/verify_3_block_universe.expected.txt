@@ -1,0 +1,50 @@
+=== Verification of static block-universe structure (sec:block-universe) ===
+
+=== Symbolic verification of static block formulas ===
+[OK] Closed level formula, recurrence, and adjacency are symbolic
+[OK] Finite block cardinality is the geometric prefix sum
+[OK] Shifted block formulas commute with generation
+
+=== Verification of static finite blocks and nested truncations ===
+[OK] Checked 36 finite static blocks
+[OK] Checked 93607 vertices in finite block windows
+[OK] Checked 32006 stable old-vertex memberships under extension
+
+=== Verification that fixed (A,S,F) determines all levels ===
+[OK] Checked 28 levels by closed/recursive/twin construction
+[OK] Checked 19204 genealogy bijection values
+[OK] Checked 708 inverse genealogy signatures
+
+=== Verification of transition-operator discipline ===
+[OK] Checked 21 full set-image transitions Phi_n(L_n)=L_(n+1)
+[OK] Checked 21 impossibility guards for single-valued full-cover transitions
+
+=== Verification of internal causality, complete past, and complete future ===
+[OK] Checked 82 unique past chains
+[OK] Checked 334 singleton past slices
+[OK] Checked 492 future cone slices
+[OK] Checked 38528 future vertices
+[OK] Checked 38528 future branch decodings
+
+=== Verification of foliation and observer-path distinction ===
+[OK] Checked 1401 unique foliation labels
+[OK] Checked 84 observer-like chains
+[OK] Checked 84 paths as proper subsets of static blocks
+
+=== Verification of universal causal speed limit ===
+[OK] Checked 382 one-edge speed-limit bounds
+[OK] Checked 10093 finite-path speed-limit bounds
+[OK] Checked 10093 exact path-length/level-difference identities
+[OK] Checked 382 no-skip-edge guards
+
+=== Verification of shift-isomorphic static blocks ===
+[OK] Checked 144 shifted levels
+[OK] Checked 760 shifted ancestor signatures
+[OK] Checked 17800 shifted causal pairs
+[OK] Checked 384 shift-composition witnesses
+
+=== Negative guards and invalid-domain tests ===
+[OK] Time-order, wrong-c, single-path, skip-edge, and single-valued-transition guards pass
+[OK] Invalid parameters, levels, vertices, states, and path data are rejected
+
+=== Block-universe verification completed successfully ===

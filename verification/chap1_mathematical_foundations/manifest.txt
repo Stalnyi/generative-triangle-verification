@@ -1,0 +1,19 @@
+Chapter 1: Mathematical Foundations
+
+[1]
+Manuscript files covered:
+  chap1_mathematical_foundations/1_basic_objects.tex
+  chap1_mathematical_foundations/2_space_definition.tex
+  chap1_mathematical_foundations/3_recursive_generation.tex
+  chap1_mathematical_foundations/4_basic_unfolding.tex
+  chap1_mathematical_foundations/5_shift_mechanism.tex
+  chap1_mathematical_foundations/6_geometric_topological_properties.tex
+  chap1_mathematical_foundations/7_time_as_level_index.tex
+  chap1_mathematical_foundations/8_structural_properties.tex
+  chap1_mathematical_foundations/9_hierarchical_meta_structure.tex
+
+Verification script:
+  anc/verification/chap1_mathematical_foundations/scripts/verify_math_foundations.py
+
+Expected output:
+  anc/verification/chap1_mathematical_foundations/expected_output/verify_math_foundations.expected.txt

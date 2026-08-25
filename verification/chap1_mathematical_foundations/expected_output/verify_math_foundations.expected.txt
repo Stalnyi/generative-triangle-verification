@@ -1,0 +1,70 @@
+=== Full mathematical verification of Chapter 1 ===
+
+=== 1. Basic objects ===
+[OK] Checked 16 state spaces
+[OK] Checked 336 full fibers over x
+[OK] Checked 6840 finite product elementary objects
+[OK] Checked 1784 ordered-coordinate cases
+
+=== 2. Space definition, c(A), L_1, and collision-freeness ===
+[OK] Checked 245 generative spaces
+[OK] Checked 4900 first-level bijection values
+[OK] Checked 127890 modular collision-freeness comparisons
+[OK] Checked 1470 wrong constants as shifted/misaligned, not endpoint-aligned
+[OK] Checked 1960 interval-preservation cases and 29400 neighbor gaps
+
+=== 3. Recursive generation, global bijections, and decoding ===
+[OK] Checked 28 recursive levels
+[OK] Checked 73360 generated next-level bijection values
+[OK] Checked 73360 local inverse decodings
+[OK] Checked 26274 finite-truncation bijection values
+[OK] Rejected 24 wrong truncation codomains
+[OK] Checked 181595 corrupted predecessor/state failures
+
+=== 4. Basic binary unfolding ===
+[OK] Checked 18 binary levels and finite initial coverage
+
+=== 5. Shift mechanism and multispace isomorphism ===
+[OK] Checked 168 shifted levels
+[OK] Checked 2268 shifted generation edges
+[OK] Checked 11445 shifted causal pairs
+[OK] Checked 448 shift-composition witnesses
+[OK] Checked 2149 wrong-shift non-isomorphism witnesses
+
+=== 6. Geometric and topological properties ===
+[OK] Checked 28 deterministic finite truncations
+[OK] Checked 7193 genealogy bijection values
+[OK] Checked 7193 inverse ancestor signatures
+[OK] Checked 6100 same-root branch noncollision witnesses
+[OK] Checked 82 unique ancestor chains
+
+=== 7. Time as level index ===
+[OK] Checked 201 unique time labels
+[OK] Checked 470 one-step time increments
+[OK] Checked 1275 causal time-order pairs
+[OK] Checked 1257 same-level comparability cases
+[OK] Checked 3 time-order nonconverse witnesses
+
+=== 8. Structural properties ===
+[OK] Checked 195 homogeneous outgoing fibers
+[OK] Checked 96 strict cardinality-growth cases
+[OK] Checked 64 sampled shift-family members
+[OK] Checked 24 non-endpoint-aligned constants as misaligned cases
+
+=== 9. Hierarchical meta-structure ===
+[OK] Checked 8 level-1 deterministic slices
+[OK] Checked 120 level-2 shifted multispace slices
+[OK] Checked 100 level-3 shift-composition witnesses
+[OK] Checked 20 sampled countable-family indices
+
+=== Cross-section consistency across all chapter files ===
+[OK] Checked 7900 shifted causal/hereditary cross-section witnesses
+
+=== Soundness guards and negative tests ===
+[OK] Core invalid domains are rejected
+[OK] Wrong c is injective but not endpoint-aligned
+[OK] Wrong truncation codomain is rejected
+[OK] Time-order/noncausality and same-level incomparability guards pass
+[OK] Corrupted predecessor/state and inhomogeneous S guards pass
+
+=== Full mathematical Chapter 1 verification completed successfully ===

@@ -1,0 +1,47 @@
+=== Verification of binary microhistory (sec:spin-microhistory) ===
+
+=== Exact finite verification of the complete genealogical code ===
+[OK] Pi: L_n -> A x {1,2}^n is bijective across multiple exact finite models
+[OK] Counts |{1,2}^n| = 2^n and |L_n| = k*2^n hold exactly
+
+=== Verification of chi versus full causal genealogy ===
+[OK] The internal-state sequence alone omits the initial element when k > 1
+[OK] Once a is fixed, the internal-state sequence determines the full finite causal chain
+
+=== Verification of fixed-origin generation ===
+[OK] Each initial element produces exactly 2^n distinct depth-n descendants
+[OK] Fixed-origin descendant sets are disjoint at the same depth
+
+=== Symbolic verification of cardinality identities ===
+[OK] |A x {1,2}^n| = k*2^n and binary depth count 2^n are symbolically consistent
+[OK] Depth recursion doubles the number of internal-state prefixes exactly
+
+=== Verification of centered binary half-integer spectrum ===
+[OK] epsilon(1)=-1/2 and epsilon(2)=+1/2 exactly
+[OK] The centered binary spectrum is symmetric and has unit spacing
+
+=== Symbolic verification of uniqueness among translations ===
+[OK] Centering sigma-lambda forces lambda=3/2 uniquely
+[OK] Non-centered translations fail the zero-sum centering condition
+
+=== Symbolic verification of affine centered normalizations ===
+[OK] General affine centering is eta(sigma)=alpha*(sigma-3/2)
+[OK] Unit-spacing normalization fixes alpha=1, beta=-3/2
+
+=== Negative domain verification ===
+[OK] Rejected invalid case: invalid internal state in F
+[OK] Rejected invalid case: invalid internal-state prefix symbol
+[OK] Rejected invalid case: invalid initial element
+[OK] Rejected invalid case: length mismatch for declared level
+[OK] Rejected invalid case: element outside requested level
+[OK] Rejected invalid case: invalid centered binary state
+[OK] Rejected invalid case: degenerate affine normalization alpha=0
+[OK] Rejected invalid case: invalid k below the model domain
+[OK] Rejected invalid case: non-binary internal-state sequence
+[OK] Invalid domains are rejected without vacuous acceptance
+
+=== Verification of the structural interpretation guard ===
+[OK] The half-integer spectrum is verified as an internal structural consequence only
+[OK] No external physical spin structure is assumed by the verification
+
+=== Binary microhistory verification completed successfully ===

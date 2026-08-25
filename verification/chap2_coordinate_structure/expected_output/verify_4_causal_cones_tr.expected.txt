@@ -1,0 +1,32 @@
+=== Verification of causal cones in (t,r) coordinates (sec:causal-cones-tr) ===
+
+=== Symbolic verification of the causal-cone identities ===
+[OK] Upper cone inequality reduces exactly to D <= s^ell - 1
+[OK] Lower cone inequality reduces exactly to (s^ell - 1)u + D >= 0
+[OK] Boundary and width formulas are symbolically consistent
+
+=== Symbolic verification of asymptotic regimes ===
+[OK] Fixed-depth left boundary tends to Delta r = ell as u -> infinity
+[OK] Fixed-u left boundary has a bounded correction, hence Delta r/ell -> 1
+[OK] The nonzero correction for fixed u > 0 is explicitly preserved
+
+=== Exact finite verification of causal slices ===
+[OK] Checked 27940 exact descendant coordinates
+[OK] Right-boundary cases: 352; left-boundary cases: 352
+
+=== Integration with levels, F, and shift invariance ===
+[OK] Checked 2296 generated paths and shifted copies
+
+=== Boundary width and ratio-regime verification ===
+[OK] Fixed-depth logarithmic cone width shrinks as u increases
+[OK] Fixed-u left-boundary correction remains bounded, so Delta r/ell tends to 1
+[OK] The u=0 left boundary stays exactly at Delta r = 0
+
+=== Negative guard: speed bound is not a converse causality test ===
+[OK] A future-level non-descendant can still satisfy Delta r <= Delta t
+[OK] The theorem is verified as a necessary bound, not as an equivalence
+
+=== Negative domain tests ===
+[OK] Invalid parameters, depths, coordinates, and internal states are rejected
+
+=== Causal-cone (t,r) verification completed successfully ===

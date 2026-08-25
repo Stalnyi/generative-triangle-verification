@@ -1,0 +1,32 @@
+=== Verification of exact discrete causal interval (sec:discrete-causal-interval) ===
+
+=== Symbolic verification of the exact discrete causal interval formula ===
+[OK] Delta r formula follows from the log-coordinate difference and causal-layer decomposition
+[OK] Lower/upper interval inequalities reduce to nonnegative integer expressions
+[OK] Symbolic second-difference check confirms nonlinear logarithmic spacing
+
+=== Exact finite verification of 0 <= Delta r <= Delta t ===
+[OK] Checked 95608 exact rational interval arguments
+[OK] Lower equalities: 24; upper equalities: 408; strict interior: 95176
+
+=== Verification of boundary internal-state trajectories ===
+[OK] Checked 35 base/depth boundary cases
+[OK] D=0 is the left boundary, but Delta r=0 also requires ancestor position u=0
+[OK] D=s^Delta_n-1 is exactly the right boundary and gives Delta r=Delta n for every u
+
+=== Integration with position recursion and finite level coordinates ===
+[OK] Checked 13692 recursively generated causal-layer paths
+[OK] Checked 1969 integrations with actual level coordinates
+
+=== Verification of normalized uniformity versus logarithmic non-uniformity ===
+[OK] Uniform Delta rho gaps checked: 5600
+[OK] Strict Delta r monotonicity checks: 67200
+[OK] Strictly decreasing logarithmic gap checks: 66912
+
+=== Verification of exact interval bounds ===
+[OK] Checked 708 exact representative intervals inside the oriented coordinate cone
+
+=== Negative domain and corruption tests ===
+[OK] Invalid parameters and corrupted decompositions are rejected
+
+=== Exact discrete causal interval verification completed successfully ===

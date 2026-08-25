@@ -1,0 +1,29 @@
+=== Verification of Section 7: continuum Lorentzian form ===
+
+=== Symbolic verification of the Lorentzian quadratic form ===
+[OK] I^2 factorizes exactly as (Delta t - Delta r)(Delta t + Delta r)
+[OK] Boundary identities and cone parameterization hold symbolically
+
+=== Exact rational verification inside the oriented future cone ===
+[OK] Checked 14878 exact rational one-sided cone points
+[OK] Timelike=14706; null=171; origin=1
+
+=== Exact rational verification outside the oriented cone ===
+[OK] Checked 14706 exact outside-cone points with Delta r > Delta t >= 0
+[OK] Non-negativity fails exactly outside the one-sided causal inequality
+
+=== Verification of the natural two-sided extension ===
+[OK] Checked 11881 exact rational two-sided cone points
+[OK] The two-sided extension preserves the same non-negativity condition
+
+=== Discrete-to-continuum causal implication checks ===
+[OK] Checked 14446 exact discrete/rational causal intervals
+[OK] Cone-preserving limits converge to T^2 - R^2 and keep non-negativity
+
+=== Boundary and classification exhaustiveness checks ===
+[OK] Boundary identities and cone classification are exhaustive on exact grids
+
+=== Domain guards ===
+[OK] Invalid causal-domain inputs are rejected
+
+=== Continuum Lorentzian form verification completed successfully ===

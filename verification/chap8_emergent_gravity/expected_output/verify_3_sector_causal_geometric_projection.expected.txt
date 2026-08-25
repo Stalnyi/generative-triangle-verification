@@ -1,0 +1,44 @@
+=== Verification of sector causal-geometric projection ===
+
+=== Symbolic verification of sector formulas ===
+[OK] s*(ln s/s)=ln s is symbolic
+[OK] primary sector length is 1/s symbolically
+[OK] finite sector fraction s^(d-1)/s^d=1/s is symbolic
+[OK] q-depth denominator reconstructs primary sum only at q=1 in the primary class
+
+=== Verification of primary-sector partition of [0,1) ===
+[OK] Checked 189 primary sectors
+[OK] Checked 171 adjacent half-open boundaries
+[OK] Checked 3213 exact partition grid points
+
+=== Verification of first-digit sector lemma ===
+[OK] Checked 6072 causal digit paths
+[OK] Checked 6072 residual bounds 0<=R<1/s
+[OK] Checked 6072 digit/rho inverse decodings
+
+=== Verification of finite primary-sector fractions ===
+[OK] Checked 144 finite spectra
+[OK] Checked 1512 sector count/fraction cases
+[OK] Checked 5694 exhaustively materialized spectrum points
+[OK] Checked 1512 exact q-range sector formulas
+[OK] Checked 4156 boundary/midpoint sector samples
+
+=== Verification of unique equal primary-sector projection ===
+[OK] Checked 78 unique primary-sector projections
+[OK] Checked 312 wrong equal-sector normalizations
+[OK] Checked 77 unequal-contribution rejections
+[OK] Checked 156 wrong primary-sector count rejections
+
+=== Verification of normalization guards ===
+[OK] Checked 336 q-depth denominator cases
+[OK] Checked 144 s, s-1, sqrt(s) denominator guards
+[OK] Checked 240 s^alpha denominator guards
+[OK] Checked 336 deeper sub-sector reconstruction cases
+
+=== Verification of binary sector constant ===
+[OK] Checked binary sector constant G_2=ln(2)/2
+
+=== Negative domain tests ===
+[OK] Invalid branching, depth, sigma, states, digits, rho, denominators, and contribution tuples are rejected
+
+=== Sector causal-geometric projection verification completed successfully ===

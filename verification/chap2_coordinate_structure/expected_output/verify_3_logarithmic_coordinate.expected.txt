@@ -1,0 +1,33 @@
+=== Verification of logarithmic spatial coordinate (sec:logarithmic-coordinate) ===
+
+=== Symbolic verification of logarithmic-coordinate identities ===
+[OK] Exact logarithmic evolution identity verified symbolically
+[OK] Boundary equality conditions reduced to exact algebraic equations
+[OK] First-order asymptotic expansion verified symbolically
+[OK] r(u)=log_s(u+1) is asymptotic to log_s(u)
+
+=== Exact finite verification of r_n(x)=log_s(u_n(x)+1) ===
+[OK] Checked 71374 level points for domain, reconstruction, and strict monotonicity
+
+=== Exact finite verification of the one-step logarithmic evolution ===
+[OK] Checked 112098 one-step transitions
+[OK] Upper equality cases: 23478; lower equality cases: 24; strict interior cases: 88596
+
+=== Verification of the normalization +1 shift in r(u)=log_s(u+1) ===
+[OK] The left-boundary condition r(0)=0 forces the +1 shift
+[OK] The unshifted logarithmic coordinate is singular at u=0
+
+=== Verification of the depth-ell maximum-speed bound ===
+[OK] Checked 39825 finite descendant paths
+[OK] Equality only on the right boundary: 375; strict cases: 39450
+
+=== Verification of global shift invariance of the logarithmic coordinate ===
+[OK] Checked 864 shifted one-step transitions
+
+=== Numerical and exact-rational verification of the asymptotic correction ===
+[OK] Checked 264 asymptotic first-order approximations
+
+=== Negative domain and consistency tests ===
+[OK] Invalid domains and damaged cone data are rejected
+
+=== Logarithmic-coordinate verification completed successfully ===

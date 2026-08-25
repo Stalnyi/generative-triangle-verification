@@ -1,0 +1,54 @@
+=== Verification of effective gravitational attraction as sector deficit ===
+
+=== Symbolic verification of sector-deficit identities ===
+[OK] delta_mu=(|H_compat|-|H_unperturbed|)/s^ell is symbolic
+[OK] delta_mu=-G_s*m_comb*Phi is symbolic
+[OK] full unperturbed sector fraction is 1/s symbolically
+
+=== Verification of full causal layer and sector counts ===
+[OK] Checked 56 full causal layers
+[OK] Checked 308 sector cardinality/fraction cases
+[OK] Checked 9197336 digit assignments to primary sectors
+[OK] Checked 924 causal speed-bound digit witnesses
+
+=== Verification of compatible subsets and sector measures ===
+[OK] Checked 35 compatible stable layers
+[OK] Checked 175 sector measure definitions
+[OK] Checked 175 monotonicity/deficit inequalities
+[OK] Checked 175 strict-deficit equivalences
+
+=== Exhaustive verification of strict-deficit criterion on small sector sets ===
+[OK] Checked 46539 finite stable/compatible subset pairs
+[OK] Checked 18 non-subset compatibility rejections
+
+=== Verification of localization sectors and effective attraction criterion ===
+[OK] Checked 40 localized-deficit layers
+[OK] Checked 40 localized sector-set computations
+[OK] Checked 40 effective-attraction witnesses
+[OK] Checked 120 non-attraction negative cases
+
+=== Verification of deficit profile and G_s decomposition ===
+[OK] Checked 10100 deficit-profile values
+[OK] Checked 8800 zero-profile cases
+[OK] Checked 1300 positive-profile cases
+[OK] Checked 10100 exact G_s decompositions
+[OK] Checked 1300 wrong-coefficient reconstruction failures
+
+=== Verification that compatibility does not deform the full causal cone ===
+[OK] Checked 105 compatibility selections against unchanged full cones
+[OK] Checked 105 compatible subsets inside full cones
+[OK] Rejected 105 attempted cone shrinkages
+[OK] Rejected 105 attempted forbidden extensions
+
+=== Guard: sector measure is normalized by s^ell, not by stable-sector size ===
+[OK] Checked 135 sector-measure normalizations by s^ell
+[OK] Checked 15 undefined conditional normalizations
+
+=== Verification of effective gravitational deformation theorem ===
+[OK] Checked 220 theorem witnesses
+[OK] Checked 440 failed-hypothesis non-witnesses
+
+=== Negative domain tests ===
+[OK] Invalid branching, depths, sectors, digits, stable sets, profiles, and speed claims are rejected
+
+=== Effective gravitational-attraction sector-deficit verification completed successfully ===

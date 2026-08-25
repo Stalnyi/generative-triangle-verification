@@ -1,0 +1,40 @@
+=== Verification of DAG interpretation (sec:dag_interpretation) ===
+
+=== Symbolic verification of DAG edge formulas and cone bounds ===
+[OK] One-edge coordinate gaps imply 0 <= Delta r <= 1
+[OK] Multi-edge digit composition is symbolic
+
+=== Verification of edge definition, layering, and local degrees ===
+[OK] Checked 20944 graph edges
+[OK] Checked 7193 vertices with outdegree exactly s
+[OK] Checked 7193 indegree cases
+[OK] Checked 62832 same/backward/skip-level non-edge guards
+
+=== Verification of DAG acyclicity and finite edge bijection ===
+[OK] Checked 24 finite DAG windows
+[OK] Checked 26274 finite edges without target collisions
+[OK] Checked 26274 target vertices covered exactly once
+[OK] Checked 26274 strict rank-increasing edges
+
+=== Verification of path reachability, causal order, and unique paths ===
+[OK] Checked 2550 generated paths
+[OK] Checked 2550 unique inverse paths from ancestor chains
+[OK] Checked 224 adjacent nonreachable witnesses
+
+=== Verification of complete future tree and linear past ===
+[OK] Checked 350 future cone slices
+[OK] Checked 9060 future cone vertices
+[OK] Checked 44659 disjoint child-set comparisons
+[OK] Checked 250 singleton past slices
+[OK] Checked 70 linear past chains
+
+=== Verification of coordinate cone compatibility for DAG paths ===
+[OK] Checked 382 one-edge coordinate cone bounds
+[OK] Checked 3845 finite-path coordinate cone bounds
+
+=== Negative guards and invalid-domain tests ===
+[OK] Time-ordered non-edge and noncausal witnesses are rejected
+[OK] Nonmatching, reversed, same-level, and skip-level edge interpretations are rejected
+[OK] Invalid parameters, levels, vertices, states, and path data are rejected
+
+=== DAG interpretation verification completed successfully ===

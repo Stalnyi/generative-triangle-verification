@@ -1,0 +1,160 @@
+=== Verification of coordinate basis of causal structure (sec:coordinate-basis-causal-structure) ===
+
+=== Symbolic verification of coordinate-basis identities ===
+[OK] Explicit level starts satisfy the recursive level-start equation
+[OK] Consecutive level intervals are adjacent: M_n + 1 = m_{n+1}
+[OK] Edge recursion gives u_{n+1}=s*u_n+(sigma-1)
+[OK] The logarithmic-coordinate recursion follows from equality of arguments
+[OK] One-step extension of the base-s positional expansion is symbolically consistent
+
+=== Level and time-coordinate checks: m=1, k=2, s=2 ===
+[OK] Checked 510 generated elements with unique time coordinates
+
+=== Positional-coordinate bijection and reconstruction ===
+[OK] Positional coordinates bijectively index 510 finite-level elements
+
+=== Exact edge recursion and inverse-parent decoding ===
+[OK] Checked 508 generated edges and exact inverse parents
+
+=== Genealogical decoding of positional coordinates ===
+[OK] Decoded and reconstructed 510 generated elements
+
+=== Logarithmic-coordinate checks ===
+[OK] Checked 510 logarithmic coordinates and edge-additive identities
+
+=== Coordinate completeness ===
+[OK] Verified unique reconstruction of 510 elements from (t,u)
+
+=== Causal compatibility and future-cone coordinate slices ===
+[OK] Checked 3076 causal pairs and 3076 future-slice points
+[OK] Verified by counterexample that t(x)<t(y) alone does not imply x precedes y
+
+=== Domain and failure-mode checks ===
+[OK] Invalid parameter, coordinate, state, and reconstruction cases are rejected
+
+=== Level and time-coordinate checks: m=2, k=3, s=2 ===
+[OK] Checked 381 generated elements with unique time coordinates
+
+=== Positional-coordinate bijection and reconstruction ===
+[OK] Positional coordinates bijectively index 381 finite-level elements
+
+=== Exact edge recursion and inverse-parent decoding ===
+[OK] Checked 378 generated edges and exact inverse parents
+
+=== Genealogical decoding of positional coordinates ===
+[OK] Decoded and reconstructed 381 generated elements
+
+=== Logarithmic-coordinate checks ===
+[OK] Checked 381 logarithmic coordinates and edge-additive identities
+
+=== Coordinate completeness ===
+[OK] Verified unique reconstruction of 381 elements from (t,u)
+
+=== Causal compatibility and future-cone coordinate slices ===
+[OK] Checked 1926 causal pairs and 1926 future-slice points
+[OK] Verified by counterexample that t(x)<t(y) alone does not imply x precedes y
+
+=== Domain and failure-mode checks ===
+[OK] Invalid parameter, coordinate, state, and reconstruction cases are rejected
+
+=== Level and time-coordinate checks: m=1, k=2, s=3 ===
+[OK] Checked 728 generated elements with unique time coordinates
+
+=== Positional-coordinate bijection and reconstruction ===
+[OK] Positional coordinates bijectively index 728 finite-level elements
+
+=== Exact edge recursion and inverse-parent decoding ===
+[OK] Checked 726 generated edges and exact inverse parents
+
+=== Genealogical decoding of positional coordinates ===
+[OK] Decoded and reconstructed 728 generated elements
+
+=== Logarithmic-coordinate checks ===
+[OK] Checked 728 logarithmic coordinates and edge-additive identities
+
+=== Coordinate completeness ===
+[OK] Verified unique reconstruction of 728 elements from (t,u)
+
+=== Causal compatibility and future-cone coordinate slices ===
+[OK] Checked 3282 causal pairs and 3282 future-slice points
+[OK] Verified by counterexample that t(x)<t(y) alone does not imply x precedes y
+
+=== Domain and failure-mode checks ===
+[OK] Invalid parameter, coordinate, state, and reconstruction cases are rejected
+
+=== Level and time-coordinate checks: m=3, k=4, s=3 ===
+[OK] Checked 484 generated elements with unique time coordinates
+
+=== Positional-coordinate bijection and reconstruction ===
+[OK] Positional coordinates bijectively index 484 finite-level elements
+
+=== Exact edge recursion and inverse-parent decoding ===
+[OK] Checked 480 generated edges and exact inverse parents
+
+=== Genealogical decoding of positional coordinates ===
+[OK] Decoded and reconstructed 484 generated elements
+
+=== Logarithmic-coordinate checks ===
+[OK] Checked 484 logarithmic coordinates and edge-additive identities
+
+=== Coordinate completeness ===
+[OK] Verified unique reconstruction of 484 elements from (t,u)
+
+=== Causal compatibility and future-cone coordinate slices ===
+[OK] Checked 1704 causal pairs and 1704 future-slice points
+[OK] Verified by counterexample that t(x)<t(y) alone does not imply x precedes y
+
+=== Domain and failure-mode checks ===
+[OK] Invalid parameter, coordinate, state, and reconstruction cases are rejected
+
+=== Level and time-coordinate checks: m=5, k=2, s=4 ===
+[OK] Checked 682 generated elements with unique time coordinates
+
+=== Positional-coordinate bijection and reconstruction ===
+[OK] Positional coordinates bijectively index 682 finite-level elements
+
+=== Exact edge recursion and inverse-parent decoding ===
+[OK] Checked 680 generated edges and exact inverse parents
+
+=== Genealogical decoding of positional coordinates ===
+[OK] Decoded and reconstructed 682 generated elements
+
+=== Logarithmic-coordinate checks ===
+[OK] Checked 682 logarithmic coordinates and edge-additive identities
+
+=== Coordinate completeness ===
+[OK] Verified unique reconstruction of 682 elements from (t,u)
+
+=== Causal compatibility and future-cone coordinate slices ===
+[OK] Checked 2504 causal pairs and 2504 future-slice points
+[OK] Verified by counterexample that t(x)<t(y) alone does not imply x precedes y
+
+=== Domain and failure-mode checks ===
+[OK] Invalid parameter, coordinate, state, and reconstruction cases are rejected
+
+=== Level and time-coordinate checks: m=2, k=5, s=5 ===
+[OK] Checked 780 generated elements with unique time coordinates
+
+=== Positional-coordinate bijection and reconstruction ===
+[OK] Positional coordinates bijectively index 780 finite-level elements
+
+=== Exact edge recursion and inverse-parent decoding ===
+[OK] Checked 775 generated edges and exact inverse parents
+
+=== Genealogical decoding of positional coordinates ===
+[OK] Decoded and reconstructed 780 generated elements
+
+=== Logarithmic-coordinate checks ===
+[OK] Checked 780 logarithmic coordinates and edge-additive identities
+
+=== Coordinate completeness ===
+[OK] Verified unique reconstruction of 780 elements from (t,u)
+
+=== Causal compatibility and future-cone coordinate slices ===
+[OK] Checked 2150 causal pairs and 2150 future-slice points
+[OK] Verified by counterexample that t(x)<t(y) alone does not imply x precedes y
+
+=== Domain and failure-mode checks ===
+[OK] Invalid parameter, coordinate, state, and reconstruction cases are rejected
+
+=== Coordinate-basis causal-structure verification completed successfully ===

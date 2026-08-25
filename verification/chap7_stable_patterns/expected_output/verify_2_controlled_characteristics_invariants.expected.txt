@@ -1,0 +1,40 @@
+=== Verification of recursive controlled characteristics and macro-class invariants ===
+
+=== Finite-level profiles and exact profile diameters ===
+[OK] finite-level profiles are exact set-valued characteristic images
+[OK] profile diameters equal the pairwise supremum on finite projections
+[OK] invalid finite projections and invalid states are rejected soundly
+
+=== Geometric profiles Delta rho_n(P) and R_n(P) ===
+[OK] Delta-rho profiles and diameters are exact
+[OK] R-profile diameter follows the monotone log_s(D+1) formula
+[OK] bounded logarithmic control is distinguished from scalar invariance
+
+=== Normalized spin profiles ===
+[OK] B_n(P) is exactly the normalized spin profile on the finite projection
+[OK] normalized spin profile values satisfy the sharp interval bound
+
+=== Frequency regularity and the induced normalized spin limit ===
+[OK] exact finite frequencies reconstruct barSigma_n on every tested prefix
+[OK] periodic frequency-regular sequences converge to the stated spin limit
+[OK] finite-sum convergence is verified by an explicit exact error bound
+
+=== Asymptotic regularity of profile families ===
+[OK] nontrivial shrinking profile families satisfy diam_I(P_n)->0
+[OK] shrinking diameter alone is not misclassified as a finite invariant
+[OK] non-vanishing diameter blocks asymptotic regularity
+
+=== Unique asymptotic profile of a regular macro-class ===
+[OK] epsilon proof of the unique-profile proposition is checked exactly
+[OK] dropping either hypothesis produces a verified counterexample
+
+=== Asymptotic recursive invariant definition and candidate behaviours ===
+[OK] positive witnesses satisfy the invariant conditions constructively
+[OK] non-shrinking and drifting profiles are rejected as scalar invariants
+[OK] O(1) logarithmic control is not confused with a scalar limit
+[OK] scalar spin invariance is separated from full frequency-profile invariance
+
+=== Symbolic summary checks for the section ===
+[OK] symbolic expressions match the profile-diameter and frequency-spin formulas
+
+=== Recursive controlled characteristics verification completed successfully ===

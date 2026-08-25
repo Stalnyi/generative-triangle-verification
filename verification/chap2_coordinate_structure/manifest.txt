@@ -1,0 +1,41 @@
+Chapter 2: Coordinate Structure of the Generative Triangle
+
+[1]
+Manuscript source:
+  chap2_coordinate_structure/1_coordinate_structure.tex
+
+Verification script:
+  anc/verification/chap2_coordinate_structure/scripts/verify_1_coordinate_structure.py
+
+Expected output:
+  anc/verification/chap2_coordinate_structure/expected_output/verify_1_coordinate_structure.expected.txt
+
+[2]
+Manuscript source:
+  chap2_coordinate_structure/2_positional_coordinate.tex
+
+Verification script:
+  anc/verification/chap2_coordinate_structure/scripts/verify_2_positional_coordinate.py
+
+Expected output:
+  anc/verification/chap2_coordinate_structure/expected_output/verify_2_positional_coordinate.expected.txt
+
+[3]
+Manuscript source:
+  chap2_coordinate_structure/3_logarithmic_coordinate.tex
+
+Verification script:
+  anc/verification/chap2_coordinate_structure/scripts/verify_3_logarithmic_coordinate.py
+
+Expected output:
+  anc/verification/chap2_coordinate_structure/expected_output/verify_3_logarithmic_coordinate.expected.txt
+
+[4]
+Manuscript source:
+  chap2_coordinate_structure/4_causal_cones_tr.tex
+
+Verification script:
+  anc/verification/chap2_coordinate_structure/scripts/verify_4_causal_cones_tr.py
+
+Expected output:
+  anc/verification/chap2_coordinate_structure/expected_output/verify_4_causal_cones_tr.expected.txt

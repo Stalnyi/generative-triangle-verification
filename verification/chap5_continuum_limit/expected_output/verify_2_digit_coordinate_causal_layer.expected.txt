@@ -1,0 +1,27 @@
+=== Verification of exact digit-coordinate of causal layer ===
+
+=== Symbolic verification of digit-coordinate bounds and decomposition ===
+[OK] Maximal digit coordinate equals s^Delta-1 symbolically
+[OK] Appending one internal state preserves the exact digit-coordinate range
+
+=== Exact finite verification of the fixed-length base-s bijection ===
+[OK] Verified 5694 internal-state sequences across exact finite grids
+[OK] Every causal layer is filled by exactly {0,...,s^Delta-1}
+
+=== Exact verification of u-recursion versus closed decomposition ===
+[OK] Checked 15240 exact recursion/decomposition cases
+[OK] Quotient recovers the ancestor coordinate and remainder recovers D
+
+=== Verification of contiguous causal-layer slice geometry ===
+[OK] Verified 240 complete contiguous causal slices
+
+=== Integration check with level coordinates and the generation rule F ===
+[OK] Verified 10190 integrations of F-iteration with digit-coordinate reconstruction
+
+=== Verification that D-range is independent of ancestor position ===
+[OK] The internal D-spectrum of a causal layer is independent of u_n(x)
+
+=== Negative domain and corruption tests ===
+[OK] Invalid domains and corrupted decompositions are rejected
+
+=== Digit-coordinate causal-layer verification completed successfully ===
